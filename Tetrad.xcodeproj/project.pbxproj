@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000003 /* TetradApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* TetradApp.swift */; };
+		B00000000000000000000005 /* TetradRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* TetradRootView.swift */; };
+		B00000000000000000000009 /* ToolSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* ToolSettings.swift */; };
+		B0000000000000000000000B /* EditorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* EditorTools.swift */; };
+		B0000000000000000000000D /* NotebookContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* NotebookContents.swift */; };
+		B0000000000000000000000F /* NotebookEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000E /* NotebookEditor.swift */; };
+		B00000000000000000000011 /* PageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010 /* PageCanvas.swift */; };
+		B00000000000000000000013 /* PageEdits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* PageEdits.swift */; };
+		B00000000000000000000015 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000014 /* ShareSheet.swift */; };
+		B00000000000000000000018 /* NotebookSettingsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000017 /* NotebookSettingsForm.swift */; };
+		B00000000000000000000102 /* NotebookTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000101 /* NotebookTheme.swift */; };
+		B0000000000000000000001B /* NotebookCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001A /* NotebookCover.swift */; };
+		B0000000000000000000001D /* NotebookShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001C /* NotebookShelf.swift */; };
+		B00000000000000000000020 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001F /* Notebook.swift */; };
+		B00000000000000000000022 /* PageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000021 /* PageLayout.swift */; };
+		B00000000000000000000024 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000023 /* Stroke.swift */; };
+		B00000000000000000000027 /* PageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000026 /* PageRenderer.swift */; };
+		B0000000000000000000002A /* NotebookLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000029 /* NotebookLibrary.swift */; };
+		B0000000000000000000002C /* PageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000002B /* PageStorage.swift */; };
+		B0000000000000000000002F /* NotebookFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000002E /* NotebookFiles.swift */; };
+		B00000000000000000000031 /* PageFileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000030 /* PageFileImporter.swift */; };
+		C00000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000002 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000002 /* TetradApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetradApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* TetradRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetradRootView.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* ToolSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolSettings.swift; sourceTree = "<group>"; };
+		B0000000000000000000000A /* EditorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorTools.swift; sourceTree = "<group>"; };
+		B0000000000000000000000C /* NotebookContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookContents.swift; sourceTree = "<group>"; };
+		B0000000000000000000000E /* NotebookEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookEditor.swift; sourceTree = "<group>"; };
+		B00000000000000000000010 /* PageCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCanvas.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* PageEdits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageEdits.swift; sourceTree = "<group>"; };
+		B00000000000000000000014 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		B00000000000000000000017 /* NotebookSettingsForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookSettingsForm.swift; sourceTree = "<group>"; };
+		B00000000000000000000101 /* NotebookTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookTheme.swift; sourceTree = "<group>"; };
+		B0000000000000000000001A /* NotebookCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookCover.swift; sourceTree = "<group>"; };
+		B0000000000000000000001C /* NotebookShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookShelf.swift; sourceTree = "<group>"; };
+		B0000000000000000000001F /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		B00000000000000000000021 /* PageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLayout.swift; sourceTree = "<group>"; };
+		B00000000000000000000023 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		B00000000000000000000026 /* PageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRenderer.swift; sourceTree = "<group>"; };
+		B00000000000000000000029 /* NotebookLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookLibrary.swift; sourceTree = "<group>"; };
+		B0000000000000000000002B /* PageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageStorage.swift; sourceTree = "<group>"; };
+		B0000000000000000000002E /* NotebookFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookFiles.swift; sourceTree = "<group>"; };
+		B00000000000000000000030 /* PageFileImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFileImporter.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* Tetrad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Tetrad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00000000000000000000002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* App */,
+				B00000000000000000000006 /* Features */,
+				B0000000000000000000001E /* Models */,
+				B00000000000000000000025 /* Rendering */,
+				B00000000000000000000028 /* Storage */,
+				B0000000000000000000002D /* Files */,
+				C00000000000000000000002 /* Assets.xcassets */,
+				A00000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000006 /* Tetrad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000002 /* TetradApp.swift */,
+				B00000000000000000000004 /* TetradRootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000007 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000008 /* ToolSettings.swift */,
+				B0000000000000000000000A /* EditorTools.swift */,
+				B0000000000000000000000C /* NotebookContents.swift */,
+				B0000000000000000000000E /* NotebookEditor.swift */,
+				B00000000000000000000010 /* PageCanvas.swift */,
+				B00000000000000000000012 /* PageEdits.swift */,
+				B00000000000000000000014 /* ShareSheet.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000016 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000017 /* NotebookSettingsForm.swift */,
+				B00000000000000000000101 /* NotebookTheme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000019 /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000001A /* NotebookCover.swift */,
+				B0000000000000000000001C /* NotebookShelf.swift */,
+			);
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000006 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000007 /* Editor */,
+				B00000000000000000000016 /* Shared */,
+				B00000000000000000000019 /* Shelf */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B0000000000000000000001E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000001F /* Notebook.swift */,
+				B00000000000000000000021 /* PageLayout.swift */,
+				B00000000000000000000023 /* Stroke.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000025 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000026 /* PageRenderer.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000028 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000029 /* NotebookLibrary.swift */,
+				B0000000000000000000002B /* PageStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B0000000000000000000002D /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000002E /* NotebookFiles.swift */,
+				B00000000000000000000030 /* PageFileImporter.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000004 /* Tetrad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0000000000000000000000C /* Build configuration list for PBXNativeTarget "Tetrad" */;
+			buildPhases = (
+				A00000000000000000000008 /* Sources */,
+				C00000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetrad;
+			productName = Tetrad;
+			productReference = A00000000000000000000006 /* Tetrad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = A0000000000000000000000B /* Build configuration list for PBXProject "Tetrad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+				Base,
+			);
+			mainGroup = A00000000000000000000002;
+			productRefGroup = A00000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000004 /* Tetrad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00000000000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000003 /* TetradApp.swift in Sources */,
+				B00000000000000000000005 /* TetradRootView.swift in Sources */,
+				B00000000000000000000009 /* ToolSettings.swift in Sources */,
+				B0000000000000000000000B /* EditorTools.swift in Sources */,
+				B0000000000000000000000D /* NotebookContents.swift in Sources */,
+				B0000000000000000000000F /* NotebookEditor.swift in Sources */,
+				B00000000000000000000011 /* PageCanvas.swift in Sources */,
+				B00000000000000000000013 /* PageEdits.swift in Sources */,
+				B00000000000000000000015 /* ShareSheet.swift in Sources */,
+				B00000000000000000000018 /* NotebookSettingsForm.swift in Sources */,
+				B00000000000000000000102 /* NotebookTheme.swift in Sources */,
+				B0000000000000000000001B /* NotebookCover.swift in Sources */,
+				B0000000000000000000001D /* NotebookShelf.swift in Sources */,
+				B00000000000000000000020 /* Notebook.swift in Sources */,
+				B00000000000000000000022 /* PageLayout.swift in Sources */,
+				B00000000000000000000024 /* Stroke.swift in Sources */,
+				B00000000000000000000027 /* PageRenderer.swift in Sources */,
+				B0000000000000000000002A /* NotebookLibrary.swift in Sources */,
+				B0000000000000000000002C /* PageStorage.swift in Sources */,
+				B0000000000000000000002F /* NotebookFiles.swift in Sources */,
+				B00000000000000000000031 /* PageFileImporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQP52C44RC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Тетрадь";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tetrad.prototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0000000000000000000000B /* Build configuration list for PBXProject "Tetrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000009 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0000000000000000000000C /* Build configuration list for PBXNativeTarget "Tetrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0000000000000000000000A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
